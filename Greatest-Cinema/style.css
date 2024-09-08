@@ -1,0 +1,99 @@
+body {
+	margin: 0;  
+	padding: 0;                     
+	background-color: #f2f2f2; 
+	
+}
+  
+.form-wrapper {									
+	max-width: 500px;
+	margin: 100px auto;
+	background-color: #fff;
+	padding: 50px;
+	box-shadow: 0px 0px 10px #ccc; 
+	border-radius: 5px;
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.input-group {
+	margin-bottom: 20px;
+}
+
+label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+input[type="email"],
+input[type="password"] {
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	background-color: #4CAF50;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: #dfb119;
+}
+
+p {
+	margin-top: 20px;
+	text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+	.form-wrapper {
+		margin: 50px auto;
+		padding: 30px;
+	}
+
+	h1 {
+		font-size: 28px;
+		margin-bottom: 30px;
+	}
+
+	input[type="email"],
+	input[type="password"] {
+		padding: 8px;
+	}
+
+	input[type="submit"] {
+		padding: 8px;
+	}
+
+	p {
+		margin-top: 10px;
+		font-size: 14px;
+	}
+}
+
+
+/*
+1.This code is a CSS style sheet that defines the style for a web form.
+2.The first section sets some basic styles for the page's background color and remove any default margin and padding values.
+3.The ".form-wrapper" class defines the styles for the form container, which includes a max-width of 500px, a centered margin of 100px from the top of the page, a white background, a padding of 50px, a box-shadow, and a border-radius.
+4.The "h1" tag styles define the appearance of the form header with centered text and a 50px bottom margin.
+5.The "input-group" class defines the styles for a group of form input fields.
+6."label" label styles define the appearance of labels for form input fields.
+7.The "input[type='email'], input[type='password']" styles define the display of email and password input fields with 100% width, 10px padding, border-radius, and 1px solid border.
+8.The "input[type='submit']" styles define the appearance of the form's submit button with 100% width, 10px padding, green background, white text, no border, border radius, and pointer cursor.
+9.The ":hover" pseudo-class styles define the appearance of the submit button when hovered over, changing the background color to a darker shade of green.
+10.The ":hover" pseudo-class styles define the appearance of the submit button when hovered over, changing the background color to a darker shade of green.
+11.The "p" tag styles define the display of the form's message or information text with center alignment and a 20px margin.
+12.@media screen and (max-width: 600px)" sets the styles that will apply when the screen width is 600px or less, changing the form container's margin and padding, header font size, adding input fields , submission button completion and message text font size.
+*/
